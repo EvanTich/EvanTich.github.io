@@ -1,0 +1,31 @@
+body {
+    line-height: 120%;
+    margin: 25px;
+    width: 42rem;
+    margin: auto;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+header, h1 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+.gray {
+    color: rgb(156, 163, 175);
+}
+
+code {
+    font-size: 120%;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+}
