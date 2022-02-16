@@ -15,8 +15,28 @@ hr {
     margin-top: 1rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul, li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 .gray {
     color: rgb(156, 163, 175);
+}
+
+.black {
+    color: rgb(0, 0, 0);
 }
 
 code {
