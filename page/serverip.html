@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my domain - Server IP Configuration</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h2><a class="black" href="../index.html">Evan Tichenor</a></h2>
+    <hr>
+  </header>
+  <time class="gray" datetime="2022-03-07">March 7, 2022</time>
+
+  <main>
+    <h1>IN PROGRESS</h1>
+    <!-- TODO: Title! -->
+    <p>
+      Recently I re-setup my IP configuration on a machine I'm using as a server.
+      I'm currently running an SSH server and a Minecraft server on the machine (this becomes important later).
+      <aside class="gray">Important note: the machine is using Arch Linux, which is notorious for being difficult to manage (but has some nice pros too!).</aside>
+      It was a pain in my ass. It shouldn't have been, but it was.
+      I'm going to tell you the result of this process before I get into the nitty-gritty of it because I think it will be more interesting and informative that way.
+    </p>
+    <h4>The Results</h4>
+    <p>
+      The results were as follows:
+      <ul>
+        <li>A proper static IP address</li>
+        <li>A functioning routing table</li>
+        <li>Access to DNS nameservers</li>
+        <li>A port-forwarded Arch Linux server</li>
+      </ul>
+      These results might not seem like much, but they were hard fought for.
+    </p>
+    <h4>The Beginning</h4>
+    <p>
+<!-- outline:
+        - try to access server (connect to minecraft server)
+        - try to access ssh (not working)
+        - Dad sends picture of speedtest saying the house just got fiber (nice but my server is now broke)
+            - aside for the speed of fiber (4-5 ms ping and Gb up/down; WOW)
+        - Port forwarding (ez)
+        - flush ips
+        - fixing the ip using network manager
+        - rouge 10.0.0.11 ip being added to the device (this will be fixed at the very end)
+        - flush routes
+        - fix the routes
+        - ABLE TO ACCESS MACHINE THROUGH SSH!
+        - dns issues
+        - said fuck it, destory everything in network manager
+        - sadness
+            - think about network manager
+        - stop and disable network manager
+        - flush ip, add ip
+        - flush routes, add routes
+        - put dns in /etc/resolv.conf (thank you https://wiki.archlinux.org/title/Network_configuration#Check_the_connection)
+        - noticed /etc/resolv.conf was changed by dhcpcd, stopped and disabled it through systemctl
+            - dhcpcd is what was probably adding the rouge ip too (son of a bitch)
+        - ultimately this was a temporary solution, probably going to go back to NetworkManager
+-->
+    </p>
+
+    I had the server setup with a static IP address
+  </main>
+
+  <footer>
+    <hr>
+    <a href="../index.html">← Back to home</a>
+  </footer>
+</body>
+</html>
